@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erzurum | Lezzet Durağı</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fixed-snowflake" onclick="toggleMenu()">❄</div>
+    
+    <div id="sideMenu" class="side-menu">
+        <a href="javascript:void(0)" class="closebtn" onclick="toggleMenu()">&times;</a>
+        <div class="menu-content">
+            <h3>Buzlar Ülkesi</h3>
+            <hr>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="index2.html">Keşif Merkezi</a>
+        </div>
+    </div>
+
+    <div class="kultur-wrapper">
+        <header class="kultur-header">
+            <div class="header-badge">Dadaş Sofrası</div>
+            <h1>Erzurum Mutfağı</h1>
+            <div class="line"></div>
+        </header>
+
+        <div class="lezzet-grid">
+            
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f1')">
+                    <h3>Oltu Cağ Kebabı</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f1" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="kebap.jpg"></div>
+                        <p>Kuzu etinin özel baharatlarla pişirilmesiyle hazırlanan tescilli lezzettir.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f2')">
+                    <h3>Kadayıf Dolması</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f2" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="kadayif.jpg"></div>
+                        <p>Tel kadayıfın cevizle buluşup kızartıldığı efsane Erzurum tatlısıdır.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f3')">
+                    <h3>Ayran Aşı</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f3" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="ayran-asi.jpg"></div>
+                        <p>Aşotu (kişniş) ile lezzetlenen yoğurtlu ve buğdaylı ferah çorbadır.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f4')">
+                    <h3>Lor Dolması</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f4" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="lor.jpg"></div>
+                        <p>Pazı yaprağına sarılı taze lor ve tereyağlı bir Erzurum klasiğidir.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f5')">
+                    <h3>Un Helvası</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f5" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="unhelvasi.jpg"></div>
+                        <p>Köy tereyağı ile uzun süre kavrulan yoğun kıvamlı meşhur tatlıdır.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f6')">
+                    <h3>Şalgam Dolması</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f6" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="salgam.jpg"></div>
+                        <p>Şalgam dilimleri arasına kıymalı harç konularak yapılan özgün yemektir.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f7')">
+                    <h3>Hasuta</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f7" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="hasita.jpg"></div>
+                        <p>Nişasta ve şekerle yapılan, enerji veren tarihi bir Erzurum tatlısıdır.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-item">
+                <div class="story-header" onclick="toggleStory('f8')">
+                    <h3>Aş Otu Çorbası</h3>
+                    <span class="toggle-icon">🍴</span>
+                </div>
+                <div id="f8" class="story-content">
+                    <div class="lezzet-container">
+                        <div class="lezzet-img"><img src="asotu.jpg"></div>
+                        <p>Süzme yoğurt ve kişnişin aromatik uyumuyla hazırlanan özel çorbadır.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> <a href="index2.html" class="back-btn" style="margin-top: 50px; display: block; text-align: center;">⬅ Keşif Merkezine Dön</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
